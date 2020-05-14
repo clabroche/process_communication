@@ -1,0 +1,1 @@
+import dispatcher from '../../src'

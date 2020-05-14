@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "preserveConstEnums": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitThis": true,
+    "outDir": "dist",
+    "sourceMap": false,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "module": "commonjs",
+    "target": "ES2019",
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "skipLibCheck": true,
+    "lib": ["dom", "es2019"]
+  },
+  "include": ["src/**/*.ts","tests/**/*.ts", "src/**/*.tsx", "webpack/*.ts", "index.spec.ts"],
+  "exclude": ["node_modules", "tests", "**/*.spec.*"]
+}
